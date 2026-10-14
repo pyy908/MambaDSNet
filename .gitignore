@@ -1,0 +1,33 @@
+# 模型权重与数据（不提交，可从 Zenodo/HuggingFace 获取）
+model/
+data/
+U-Mamba-main/
+pre_trained_weights_*/
+*.pth
+*.h5
+*.npz
+*.nii.gz
+
+# 训练/测试输出
+test_predictions/
+test_log/
+freq_analysis_results*/
+figures/
+*.png
+
+# 论文 LaTeX 源文件（匿名投稿时单独处理）
+*.tex
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 调试/临时文件
+*.backup
+temp_metrics.txt
