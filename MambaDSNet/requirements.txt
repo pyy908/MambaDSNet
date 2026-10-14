@@ -1,0 +1,33 @@
+# ===== PyTorch（请按你的 CUDA 版本安装对应 wheel，本项目在 CUDA 11.8 验证）=====
+# 安装示例：
+#   pip install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
+torch==2.1.2
+torchvision==0.16.2
+
+# ===== Vision Mamba =====
+mamba-ssm==1.1.1
+
+# ===== 模型与网络库 =====
+einops==0.8.1
+segmentation-models-pytorch==0.5.0
+
+# ===== 指标与科学计算 =====
+numpy==1.26.4
+scipy==1.15.2
+scikit-image==0.25.2
+medpy==0.5.2
+h5py==3.15.1
+
+# ===== 图像处理 =====
+Pillow==11.3.0
+SimpleITK==2.5.3  # 可选：仅测试时保存 NIfTI 需要
+
+# ===== 训练与日志 =====
+tensorboardX==2.6.4
+tqdm==4.67.1
+
+# ===== 配置解析 =====
+PyYAML==6.0.3
+
+# ===== 可选：U-Mamba 对比实验（需另装 nnU-Net v2 环境，见 U-Mamba 官方仓库）=====
+# nnunetv2==2.1.1
