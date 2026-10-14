@@ -218,6 +218,7 @@ MambaDSNet/
 │
 ├── requirements.txt               # Dependencies
 ├── LICENSE                        # License
+├── .gitignore
 └── README.md
 ```
 
